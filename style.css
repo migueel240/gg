@@ -1,0 +1,212 @@
+body{
+  background-color: #753b04;
+  background: url(woo.webp)  fixed;
+  background-size: cover;
+}
+nav {
+
+    background-color: #a5836a;
+    padding: 20px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+    border-radius: 30px;
+    border: 2px solid #ad7846;
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+
+    gap: 40px;
+    
+   
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+nav a {
+    color: #e3d5b8;
+
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+
+    transition: color 0.2s;
+
+    
+}
+nav a:hover {
+    color: #ffcc00;
+}
+header {
+  text-align: center;
+  padding: 48px 16px 10px;
+  color: black;
+}
+header h1 {
+  font-size: 20px;
+  text-shadow: 3px 3px 0 #000;
+  letter-spacing: 3px;
+
+  margin: 0;
+
+  border: 10px solid;
+  border-radius: 20px;
+  width:fit-content;
+  
+}
+header p { 
+  margin: 6px 0 0;
+  opacity: .85;
+  color: #ff0000;
+  font-size: 30px;
+  font-family: Syne Mono;
+  margin-top: 30px;
+}
+.poster {
+    background-color: #f4ebd0;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+    border: 8px double #4a3525; 
+    box-shadow: 0 20px 25px   rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin: 30px auto; 
+}
+.page-button{
+  color: red;
+  font-weight: bold;
+  border-radius: 30px;
+  display: inline-block;
+}
+.page-button:active {
+  transform: scale(0.98); 
+}
+.poster img{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border: 4px solid #3d2817;
+    outline: 2px solid #c2b280;
+    outline-offset: 4px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.poster p{
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+}
+.poster h1{
+  font-size: 3rem;
+  color: red;
+}
+.poster h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+}
+.poster h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+  border: #000 solid;
+}
+
+#name{
+  font-size: 3rem;
+  color:#000
+}
+html{
+  scroll-behavior: smooth;
+}
+.container{
+  text-align: center;
+  margin:10px
+}
+.container h2 {
+  border: #000000,solid;
+}
+
+.info{
+    
+  width: 100%;
+  max-width: 900px;
+  border: 6px #000 double;
+  border-radius: 30px;
+  box-shadow: 0 20px 25px rgba(95, 31, 31, 0.6);
+  margin: 20px auto; 
+  padding: 30px;
+  font-size: 40px;
+}
+
+.info em{
+  font-family: Syne Mono;
+  color: red;
+  font-size: 40px;
+
+}
+header marquee {
+  background-color: #000000;
+  color: #ff0000;
+  font-family: Syne Mono;
+  font-size: 1.5rem;
+  padding: 8px 0;
+  border-top: 2px solid #ad7846;
+  border-bottom: 2px solid #ad7846;
+  letter-spacing: 4cap;
+}
+
+.dagdag{
+  background-color: #4a3525;
+  text-align: center;
+  color: #c2b280;
+  border: #979292 solid;
+  margin-top: 30px;
+}
+.dagdag h2{
+  letter-spacing: 2cap;
+}
+.dagdag :hover{
+  color: red;
+}
+.footer{
+  border-top: #000 solid;
+  margin-top: auto;
+}
+.footer p{
+  color: #eeedec;
+
+}
+.about {
+  margin-top: 90px;       
+  padding: 20px;
+   
+}
+.about-content{
+  text-align: center;   
+  font-size: 18px;  
+  line-height: 1.6;
+  font-size: 400%;    
+}
+.about-content em{
+  color: red;
+  font-weight: 100;
+}
+.contact{
+  text-align: center;
+
+}
+.contact-info{
+  font-size: 40px;
+  border: #ff2600 solid;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin: 16px auto;
+  margin-top: 100px;
+}
